@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.music-video-genome" name="Music Video Genome" version="0.1" provider-name="kz412">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>    
+	<extension point="xbmc.python.pluginsource"
+            library="default.py">
+			  <provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <summary lang="en">Plays Music Video Genome</summary>
+        <language></language>
+        <description lang="en">Plays Music Video Genome</description>
+    </extension>
+</addon>
